@@ -1,0 +1,456 @@
+
+
+header {
+    position: fixed;
+    right: 0;
+    top:0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 9%;
+    background: transparent;
+    background-color: purple;
+   }
+   a {
+    color: white;
+  }
+   .logo {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+   }
+  
+   .navlist {
+    display: flex;
+   }
+  
+   .navlist a{
+    color: white;
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+   }
+  
+   .navlist a:hover {
+    border-bottom: 2px solid white
+   }
+  
+   #menu-icon {
+    color: white;
+    font-size: 30px;
+    z-index: 10001;
+    cursor: pointer;
+   }
+
+.header { 
+    position: fixed;
+    right: 0;
+    top:0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 9%;
+    background: transparent;
+    background-color: purple;
+    
+}
+
+div.hero-img {
+background-image: url(/images/beachtraveling\ .jpg);  
+background-size: cover;
+height: 100vh;
+width: 100%vh;
+display: block;
+background-repeat: no-repeat;
+}
+
+
+.container1{
+margin-top: 60px;    
+}
+
+body{
+background: purple;
+}
+
+
+.bookingbtn {
+background-color: purple;
+size: 50px;
+border-radius: 16px;
+border-color: white;
+font-family: "Beiruti", sans-serif;
+font-weight: bolder;
+color: white;
+align-items: center;
+text-align: center;
+position: relative;
+float: inline-start;
+padding-inline: 4px;
+width: 30%;
+height: 75px;
+margin-left: 20px;
+
+
+}
+
+.itinerarybtn {
+background-color: purple;
+size: 50px;
+border-radius: 16px;
+border-color: white;
+font-family: "Beiruti", sans-serif;
+font-weight: bolder;
+color: white;
+align-items: center;
+text-align: center;
+position: relative;
+float: inline-start;
+padding-inline: 4px;
+width: 30%;
+height: 75px;
+margin-left: 20px;   
+}
+
+.t_eventbtn {
+background-color: purple;
+size: 50px;
+border-radius: 16px;
+border-color: white;
+font-family: "Beiruti", sans-serif;
+font-weight: bolder;
+color: white;
+align-items: center;
+text-align: center;
+position: relative;
+float: inline-start;
+padding-inline: 4px;
+width: 30%;
+height: 75px;
+margin-left: 20px;     
+}
+
+
+
+h1{
+height: fit-content;
+color: #212529; 
+font-weight:lighter; 
+font-family: "Beiruti", sans-serif;
+justify-content: center;
+align-items: center;
+text-align: left;
+text-shadow: none;
+margin: 0 0 0 20px;
+}
+
+
+h2{
+color: white; 
+font-weight: lighter; 
+font-stretch: wider;
+font-family: "Beiruti", sans-serif;
+text-align: center;  
+  
+}
+
+p{
+color: white; 
+font-weight: lighter; 
+font-stretch: wider;
+font-family: "Beiruti", sans-serif;
+text-align: center;  
+}
+
+
+
+li{
+list-style-type: none; 
+margin: 0;   
+}
+
+
+footer {
+    display: flex;
+    height: 100px;
+    background-color: purple;
+    color: white;
+    line-height: 1.6;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 7%;
+   }
+  
+   footer h2 {
+    font-size: 40px;
+   }
+  
+   footer p {
+    margin-top: 30px;
+   }
+  
+   .fa-brands {
+    padding-top: 20px;
+    padding-right: 30px;
+   }
+  
+   .socialmidia a {
+    text-decoration: none;
+    color: white;
+   }
+  
+    .socialmidia a:hover {
+      color: black;
+   }
+
+   @media screen and (max-width: 700px) {
+    html {
+        font-size: 50%;
+    }
+    footer{
+        display: flex;
+        font-size: 15px;
+        line-height: 0.8;
+        height: 150px;
+    }
+    #eventForm {
+        top: 50%;
+        padding: 10px;
+    }
+    #message{
+        font-size: 16px;
+        padding: 20px;
+    }
+    .dropdown-content{
+        font-size: 18px;
+    }
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background-color: rgba(168, 59, 59);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+div.card-body{
+background-color: purple;    
+}
+
+h5.card-title {
+background-color: purple;
+color: white;
+}
+
+p.card-text {
+color: white; 
+text-align: justify; 
+max-width: 600px;
+font-size: 25px;  
+}
+
+img.card-img-top{
+position: relative;
+max-width: 600px; 
+background-color: purple; 
+height: 300px; 
+border-radius: 12px; 
+}
+
+.card-img-top {
+max-width: 600px;
+height: 300px;
+background-color: purple;
+border-radius: 12px;
+align-items: center;
+}
+
+div.card {
+background-color: purple;    
+}
+
+h5.card\=title {
+color: white;
+
+}
+
+.carousel-control-prev {
+color: white;   
+}
+
+.carousel-control-next {
+color: white;    
+}
+
+
+.carousel-item {
+display: flex;
+
+}
+.carousel-container {
+    overflow: hidden;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border: none;
+}
+
+.card-img-top {
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+<!--timer-->
+section{
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    }    
+
+h4{
+color: white;
+font-family: "Beiruti", sans-serif;
+text-align: left;
+font-weight: lighter;
+
+}
+
+h4.hover-effect {
+    font-size: 1.5em;
+    color: white;
+    text-align: left;
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+/* for the h4 tag when hovered */
+h4.hover-effect:hover {
+    color: #0091ff;
+    font-size: 2em;
+}
+
+.countdown-container {
+text-align: center;
+background: #333;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.countdown h1 {
+margin-bottom: 20px;
+font-size: 24px;
+}
+
+.countdown {
+display: flex;
+justify-content: center;
+}
+
+.time-segment {
+margin: 0 10px;
+text-align: center;
+}
+
+.time-segment span {
+display: block;
+}
+
+#days { 
+font-size: 48px;
+font-weight: bold;
+color: white;
+}
+
+#hours{
+font-size: 48px;
+font-weight: bold;
+color: white;    
+}
+
+#minutes {
+font-size: 48px;
+font-weight: bold;
+color: white;    
+}    
+
+#seconds {
+font-size: 48px;
+font-weight: bold;
+color: white;     
+}
+
+
+#label {
+font-size: 18px;
+color: white;
+
+}
+
+#countdownForm {
+position: centre;
+display: flex;
+flex-direction: column;
+}
+
+button {
+width: 100px; 
+position: center;   
+display: flex;
+}
+
+input#time{
+width: 100px;
+display: flex;
+position: center;
+}
+
+input#date {
+width:100px ;
+display: flex;
+position: center;
+color: #aaa;
+}
+
+#date .label {
+color: white;    
+}
